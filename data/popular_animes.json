@@ -1,0 +1,1002 @@
+[
+  {
+    "anime_id": 1535,
+    "title": "Death Note",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1079/138100.jpg",
+    "score": 8.62,
+    "genres": "Supernatural, Suspense",
+    "synopsis": "Brutal murders, petty thefts, and senseless violence pollute the human world. In contrast, the realm of death gods is a humdrum, unchanging gambling den. The ingenious 17-year-old Japanese student Lig...",
+    "episodes": 37,
+    "year": 2006
+  },
+  {
+    "anime_id": 16498,
+    "title": "Shingeki no Kyojin",
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/47347.jpg",
+    "score": 8.57,
+    "genres": "Action, Award Winning, Drama, Suspense",
+    "synopsis": "Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly ...",
+    "episodes": 25,
+    "year": 2013
+  },
+  {
+    "anime_id": 5114,
+    "title": "Fullmetal Alchemist: Brotherhood",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1208/94745.jpg",
+    "score": 9.1,
+    "genres": "Action, Adventure, Drama, Fantasy",
+    "synopsis": "After a horrific alchemy experiment goes wrong in the Elric household, brothers Edward and Alphonse are left in a catastrophic new reality. Ignoring the alchemical principle banning human transmutatio...",
+    "episodes": 64,
+    "year": 2009
+  },
+  {
+    "anime_id": 11757,
+    "title": "Sword Art Online",
+    "image_url": "https://cdn.myanimelist.net/images/anime/11/39717.jpg",
+    "score": 7.22,
+    "genres": "Action, Adventure, Fantasy, Romance",
+    "synopsis": "Ever since the release of the innovative NerveGear, gamers from all around the globe have been given the opportunity to experience a completely immersive virtual reality. Sword Art Online (SAO), one o...",
+    "episodes": 25,
+    "year": 2012
+  },
+  {
+    "anime_id": 30276,
+    "title": "One Punch Man",
+    "image_url": "https://cdn.myanimelist.net/images/anime/12/76049.jpg",
+    "score": 8.48,
+    "genres": "Action, Comedy",
+    "synopsis": "The seemingly unimpressive Saitama has a rather unique hobby: being a hero. In order to pursue his childhood dream, Saitama relentlessly trained for three years, losing all of his hair in the process....",
+    "episodes": 12,
+    "year": 2015
+  },
+  {
+    "anime_id": 31964,
+    "title": "Boku no Hero Academia",
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/78745.jpg",
+    "score": 7.83,
+    "genres": "Action",
+    "synopsis": "The appearance of \"quirks,\" newly discovered super powers, has been steadily increasing over the years, with 80 percent of humanity possessing various abilities from manipulation of elements to shapes...",
+    "episodes": 13,
+    "year": 2016
+  },
+  {
+    "anime_id": 22319,
+    "title": "Tokyo Ghoul",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1498/134443.jpg",
+    "score": 7.79,
+    "genres": "Action, Fantasy, Horror, Suspense",
+    "synopsis": "A sinister threat is invading Tokyo: flesh-eating \"ghouls\" who appear identical to humans and blend into their population. Reserved college student Ken Kaneki buries his nose in books and avoids the n...",
+    "episodes": 12,
+    "year": 2014
+  },
+  {
+    "anime_id": 20,
+    "title": "Naruto",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1141/142503.jpg",
+    "score": 8.02,
+    "genres": "Action, Adventure, Fantasy",
+    "synopsis": "Twelve years ago, a colossal demon fox terrorized the world. During the monster's attack on the Hidden Leaf Village, the Hokage—the village's leader and most powerful ninja—sacrifices himself to seal ...",
+    "episodes": 220,
+    "year": 2002
+  },
+  {
+    "anime_id": 9253,
+    "title": "Steins;Gate",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1935/127974.jpg",
+    "score": 9.07,
+    "genres": "Drama, Sci-Fi, Suspense",
+    "synopsis": "Eccentric scientist Rintarou Okabe has a never-ending thirst for scientific exploration. Together with his ditzy but well-meaning friend Mayuri Shiina and his roommate Itaru Hashida, Okabe founds the ...",
+    "episodes": 24,
+    "year": 2011
+  },
+  {
+    "anime_id": 19815,
+    "title": "No Game No Life",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1074/111944.jpg",
+    "score": 8.04,
+    "genres": "Comedy, Fantasy, Ecchi",
+    "synopsis": "Sixteen sentient races inhabit Disboard, a world overseen by Tet, the One True God. The lowest of the sixteen—Imanity—consists of humans, a race with no affinity for magic. In a place where everything...",
+    "episodes": 12,
+    "year": 2014
+  },
+  {
+    "anime_id": 32281,
+    "title": "Kimi no Na wa.",
+    "image_url": "https://cdn.myanimelist.net/images/anime/5/87048.jpg",
+    "score": 8.83,
+    "genres": "Award Winning, Drama",
+    "synopsis": "Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city...",
+    "episodes": 1,
+    "year": null
+  },
+  {
+    "anime_id": 11061,
+    "title": "Hunter x Hunter (2011)",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
+    "score": 9.03,
+    "genres": "Action, Adventure, Fantasy",
+    "synopsis": "Hunters devote themselves to accomplishing hazardous tasks, all from traversing the world's uncharted territories to locating rare items and monsters. Before becoming a Hunter, one must pass the Hunte...",
+    "episodes": 148,
+    "year": 2011
+  },
+  {
+    "anime_id": 33486,
+    "title": "Boku no Hero Academia 2nd Season",
+    "image_url": "https://cdn.myanimelist.net/images/anime/12/85221.jpg",
+    "score": 8.05,
+    "genres": "Action",
+    "synopsis": "At UA Academy, not even a violent attack can disrupt their most prestigious event: the school sports festival. Renowned across Japan, this festival is an opportunity for aspiring heroes to showcase th...",
+    "episodes": 25,
+    "year": 2017
+  },
+  {
+    "anime_id": 6547,
+    "title": "Angel Beats!",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1244/111115.jpg",
+    "score": 8.05,
+    "genres": "Drama, Fantasy",
+    "synopsis": "Death is one of many mysteries that has left humanity in the dark since the dawn of time. However, the burning question of what happens to the soul after one dies is soon answered to 17-year-old Yuzur...",
+    "episodes": 13,
+    "year": 2010
+  },
+  {
+    "anime_id": 25777,
+    "title": "Shingeki no Kyojin Season 2",
+    "image_url": "https://cdn.myanimelist.net/images/anime/4/84177.jpg",
+    "score": 8.53,
+    "genres": "Action, Drama, Suspense",
+    "synopsis": "For centuries, humanity has been hunted by giant, mysterious predators known as the Titans. Three mighty walls—Wall Maria, Rose, and Sheena—provided peace and protection for humanity for over a hundre...",
+    "episodes": 12,
+    "year": 2017
+  },
+  {
+    "anime_id": 1575,
+    "title": "Code Geass: Hangyaku no Lelouch",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1032/135088.jpg",
+    "score": 8.71,
+    "genres": "Award Winning, Drama, Sci-Fi",
+    "synopsis": "In the year 2010, the Holy Empire of Britannia is establishing itself as a dominant military nation, starting with the conquest of Japan. Renamed to Area 11 after its swift defeat, Japan has seen sign...",
+    "episodes": 25,
+    "year": 2006
+  },
+  {
+    "anime_id": 4224,
+    "title": "Toradora!",
+    "image_url": "https://cdn.myanimelist.net/images/anime/13/22128.jpg",
+    "score": 8.04,
+    "genres": "Drama, Romance",
+    "synopsis": "Ryuuji Takasu is a gentle high school student with a love for housework; but in contrast to his kind nature, he has an intimidating face that often gets him labeled as a delinquent. On the other hand ...",
+    "episodes": 25,
+    "year": 2008
+  },
+  {
+    "anime_id": 1735,
+    "title": "Naruto: Shippuuden",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1565/111305.jpg",
+    "score": 8.28,
+    "genres": "Action, Adventure, Fantasy",
+    "synopsis": "It has been two and a half years since Naruto Uzumaki left Konohagakure, the Hidden Leaf Village, for intense training following events which fueled his desire to be stronger. Now Akatsuki, the myster...",
+    "episodes": 500,
+    "year": 2007
+  },
+  {
+    "anime_id": 20507,
+    "title": "Noragami",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1886/128266.jpg",
+    "score": 7.94,
+    "genres": "Action, Supernatural",
+    "synopsis": "In times of need, if you look in the right place, you just may see a strange telephone number scrawled in red. If you call this number, you will hear a young man introduce himself as the Yato God.\n\nYa...",
+    "episodes": 12,
+    "year": 2014
+  },
+  {
+    "anime_id": 10620,
+    "title": "Mirai Nikki (TV)",
+    "image_url": "https://cdn.myanimelist.net/images/anime/13/33465.jpg",
+    "score": 7.38,
+    "genres": "Action, Supernatural, Suspense",
+    "synopsis": "Yukiteru Amano is a shy middle schooler who regularly keeps track of what he does in his daily life by writing down all of his activities on his phone—a digital diary. Despite having no friends at sch...",
+    "episodes": 26,
+    "year": 2011
+  },
+  {
+    "anime_id": 31240,
+    "title": "Re:Zero kara Hajimeru Isekai Seikatsu",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1522/128039.jpg",
+    "score": 8.24,
+    "genres": "Drama, Fantasy, Suspense",
+    "synopsis": "When Subaru Natsuki leaves the convenience store, the last thing he expects is to be wrenched from his everyday life and dropped into a fantasy world. Things are not looking good for the bewildered te...",
+    "episodes": 25,
+    "year": 2016
+  },
+  {
+    "anime_id": 23273,
+    "title": "Shigatsu wa Kimi no Uso",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1405/143284.jpg",
+    "score": 8.64,
+    "genres": "Drama, Romance",
+    "synopsis": "Kousei Arima is a child prodigy known as the \"Human Metronome\" for playing the piano with precision and perfection. Guided by a strict mother and rigorous training, Kousei dominates every competition ...",
+    "episodes": 22,
+    "year": 2014
+  },
+  {
+    "anime_id": 21881,
+    "title": "Sword Art Online II",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1223/121999.jpg",
+    "score": 6.71,
+    "genres": "Action, Adventure, Fantasy, Romance",
+    "synopsis": "A year after escaping Sword Art Online, Kazuto Kirigaya has been settling back into the real world. However, his peace is short-lived as a new incident occurs in a game called Gun Gale Online, where a...",
+    "episodes": 24,
+    "year": 2014
+  },
+  {
+    "anime_id": 38000,
+    "title": "Kimetsu no Yaiba",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1286/99889.jpg",
+    "score": 8.42,
+    "genres": "Action, Award Winning, Supernatural",
+    "synopsis": "Ever since the death of his father, the burden of supporting the family has fallen upon Tanjirou Kamado's shoulders. Though living impoverished on a remote mountain, the Kamado family are able to enjo...",
+    "episodes": 26,
+    "year": 2019
+  },
+  {
+    "anime_id": 9919,
+    "title": "Ao no Exorcist",
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/75195.jpg",
+    "score": 7.47,
+    "genres": "Action, Supernatural",
+    "synopsis": "Humans and demons are two sides of the same coin, as are Assiah and Gehenna, their respective worlds. The only way to travel between the realms is by the means of possession, like in ghost stories. Ho...",
+    "episodes": 25,
+    "year": 2011
+  },
+  {
+    "anime_id": 22199,
+    "title": "Akame ga Kill!",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1429/95946.jpg",
+    "score": 7.48,
+    "genres": "Action, Fantasy",
+    "synopsis": "Night Raid is the covert assassination branch of the Revolutionary Army, an uprising assembled to overthrow Prime Minister Honest, whose avarice and greed for power has led him to take advantage of th...",
+    "episodes": 24,
+    "year": 2014
+  },
+  {
+    "anime_id": 23755,
+    "title": "Nanatsu no Taizai",
+    "image_url": "https://cdn.myanimelist.net/images/anime/8/65409.jpg",
+    "score": 7.61,
+    "genres": "Action, Adventure, Fantasy",
+    "synopsis": "In a world similar to the European Middle Ages, the feared yet revered Holy Knights of Britannia use immensely powerful magic to protect the region of Britannia and its kingdoms. However, a small subs...",
+    "episodes": 24,
+    "year": 2014
+  },
+  {
+    "anime_id": 28851,
+    "title": "Koe no Katachi",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1122/96435.jpg",
+    "score": 8.93,
+    "genres": "Award Winning, Drama",
+    "synopsis": "As a wild youth, elementary school student Shouya Ishida sought to beat boredom in the cruelest ways. When the deaf Shouko Nishimiya transfers into his class, Shouya and the rest of his class thoughtl...",
+    "episodes": 1,
+    "year": null
+  },
+  {
+    "anime_id": 31043,
+    "title": "Boku dake ga Inai Machi",
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/77957.jpg",
+    "score": 8.3,
+    "genres": "Mystery, Suspense",
+    "synopsis": "When tragedy is about to strike, Satoru Fujinuma finds himself sent back several minutes before the accident occurs. The detached, 29-year-old manga artist has taken advantage of this powerful yet mys...",
+    "episodes": 12,
+    "year": 2016
+  },
+  {
+    "anime_id": 21,
+    "title": "One Piece",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1244/138851.jpg",
+    "score": 8.73,
+    "genres": "Action, Adventure, Fantasy",
+    "synopsis": "Barely surviving in a barrel after passing through a terrible whirlpool at sea, carefree Monkey D. Luffy ends up aboard a ship under attack by fearsome pirates. Despite being a naive-looking teenager,...",
+    "episodes": null,
+    "year": 1999
+  },
+  {
+    "anime_id": 36456,
+    "title": "Boku no Hero Academia 3rd Season",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1319/92084.jpg",
+    "score": 7.98,
+    "genres": "Action",
+    "synopsis": "As summer arrives for the students at UA Academy, each of these superheroes-in-training puts in their best efforts to become renowned heroes. They head off to a forest training camp run by UA's pro he...",
+    "episodes": 25,
+    "year": 2018
+  },
+  {
+    "anime_id": 6702,
+    "title": "Fairy Tail",
+    "image_url": "https://cdn.myanimelist.net/images/anime/5/18179.jpg",
+    "score": 7.57,
+    "genres": "Action, Adventure, Fantasy",
+    "synopsis": "In the enchanted Kingdom of Fiore, the lively Lucy Heartfilia has one wish: to join the renowned Fairy Tail—one of the many magical wizard guilds scattered around the continent. Luckily, a chance enco...",
+    "episodes": 175,
+    "year": 2009
+  },
+  {
+    "anime_id": 30831,
+    "title": "Kono Subarashii Sekai ni Shukufuku wo!",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1895/142748.jpg",
+    "score": 8.09,
+    "genres": "Adventure, Comedy, Fantasy",
+    "synopsis": "After dying a laughable and pathetic death on his way back from buying a game, high school student and recluse Kazuma Satou finds himself sitting before a beautiful but obnoxious goddess named Aqua. S...",
+    "episodes": 10,
+    "year": 2016
+  },
+  {
+    "anime_id": 269,
+    "title": "Bleach",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1541/147774.jpg",
+    "score": 7.98,
+    "genres": "Action, Adventure, Supernatural",
+    "synopsis": "Ichigo Kurosaki is an ordinary high schooler—until his family is attacked by a Hollow, a corrupt spirit that seeks to devour human souls. It is then that he meets a Soul Reaper named Rukia Kuchiki, wh...",
+    "episodes": 366,
+    "year": 2004
+  },
+  {
+    "anime_id": 18679,
+    "title": "Kill la Kill",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1464/111943.jpg",
+    "score": 8.03,
+    "genres": "Action, Comedy, Fantasy, Ecchi",
+    "synopsis": "After the murder of her father, Ryuuko Matoi has been wandering the land in search of his killer. Following her only lead—the missing half of his invention, the Scissor Blade—she arrives at the presti...",
+    "episodes": 24,
+    "year": 2013
+  },
+  {
+    "anime_id": 2904,
+    "title": "Code Geass: Hangyaku no Lelouch R2",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1088/135089.jpg",
+    "score": 8.91,
+    "genres": "Award Winning, Drama, Sci-Fi",
+    "synopsis": "One year has passed since the Black Rebellion, a failed uprising against the Holy Britannian Empire led by the masked vigilante Zero, who is now missing. At a loss without their revolutionary leader, ...",
+    "episodes": 25,
+    "year": 2008
+  },
+  {
+    "anime_id": 24833,
+    "title": "Ansatsu Kyoushitsu",
+    "image_url": "https://cdn.myanimelist.net/images/anime/5/75639.jpg",
+    "score": 8.07,
+    "genres": "Action, Comedy",
+    "synopsis": "Tucked in the mountains near the elite Kunugigaoka Middle School lies a small derelict building that houses the delinquents and dropouts of Class 3-E. Looked down upon by their peers, the students in ...",
+    "episodes": 22,
+    "year": 2015
+  },
+  {
+    "anime_id": 32182,
+    "title": "Mob Psycho 100",
+    "image_url": "https://cdn.myanimelist.net/images/anime/8/80356.jpg",
+    "score": 8.49,
+    "genres": "Action, Comedy, Supernatural",
+    "synopsis": "Eighth-grader Shigeo \"Mob\" Kageyama has tapped into his inner wellspring of psychic prowess at a young age. But the power quickly proves to be a liability when he realizes the potential danger in his ...",
+    "episodes": 12,
+    "year": 2016
+  },
+  {
+    "anime_id": 1,
+    "title": "Cowboy Bebop",
+    "image_url": "https://cdn.myanimelist.net/images/anime/4/19644.jpg",
+    "score": 8.75,
+    "genres": "Action, Award Winning, Sci-Fi",
+    "synopsis": "Crime is timeless. By the year 2071, humanity has expanded across the galaxy, filling the surface of other planets with settlements like those on Earth. These new societies are plagued by murder, drug...",
+    "episodes": 26,
+    "year": 1998
+  },
+  {
+    "anime_id": 199,
+    "title": "Sen to Chihiro no Kamikakushi",
+    "image_url": "https://cdn.myanimelist.net/images/anime/6/79597.jpg",
+    "score": 8.77,
+    "genres": "Adventure, Award Winning, Fantasy",
+    "synopsis": "Stubborn, spoiled, and naïve, 10-year-old Chihiro Ogino is less than pleased when she and her parents discover an abandoned amusement park on the way to their new house. Cautiously venturing inside, s...",
+    "episodes": 1,
+    "year": null
+  },
+  {
+    "anime_id": 22535,
+    "title": "Kiseijuu: Sei no Kakuritsu",
+    "image_url": "https://cdn.myanimelist.net/images/anime/3/73178.jpg",
+    "score": 8.32,
+    "genres": "Action, Horror, Sci-Fi, Suspense",
+    "synopsis": "All of a sudden, they arrived: parasitic aliens that descended upon Earth and quickly infiltrated humanity by burrowing into the brains of vulnerable targets. These insatiable beings acquire full cont...",
+    "episodes": 24,
+    "year": 2014
+  },
+  {
+    "anime_id": 27899,
+    "title": "Tokyo Ghoul √A",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1889/123307.jpg",
+    "score": 7.03,
+    "genres": "Action, Fantasy, Horror, Suspense",
+    "synopsis": "Ken Kaneki has finally come to accept the monstrous, flesh-craving part of himself that he has feared and despised for so long. After escaping captivity and torture, Kaneki joins Aogiri Tree—the very ...",
+    "episodes": 12,
+    "year": 2015
+  },
+  {
+    "anime_id": 11111,
+    "title": "Another",
+    "image_url": "https://cdn.myanimelist.net/images/anime/4/75509.jpg",
+    "score": 7.46,
+    "genres": "Horror, Mystery",
+    "synopsis": "In class 3-3 of Yomiyama North Junior High, transfer student Kouichi Sakakibara makes his return after taking a sick leave for the first month of school. Among his new classmates, he is inexplicably d...",
+    "episodes": 12,
+    "year": 2012
+  },
+  {
+    "anime_id": 3588,
+    "title": "Soul Eater",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1071/149486.jpg",
+    "score": 7.85,
+    "genres": "Action, Comedy, Fantasy",
+    "synopsis": "Death City is home to the famous Death Weapon Meister Academy (Shibusen), a technical academy headed by the Shinigami—Lord Death himself. Its mission: to raise Death Scythes for the Shinigami to wield...",
+    "episodes": 51,
+    "year": 2008
+  },
+  {
+    "anime_id": 28223,
+    "title": "Death Parade",
+    "image_url": "https://cdn.myanimelist.net/images/anime/5/71553.jpg",
+    "score": 8.13,
+    "genres": "Drama, Fantasy, Suspense",
+    "synopsis": "After death, either Heaven or Hell awaits most humans. But for a select few, death brings them to Quindecim—a bar where only pairs of people who die at the same time can enter. Attending the bar is an...",
+    "episodes": 12,
+    "year": 2015
+  },
+  {
+    "anime_id": 2001,
+    "title": "Tengen Toppa Gurren Lagann",
+    "image_url": "https://cdn.myanimelist.net/images/anime/4/5123.jpg",
+    "score": 8.64,
+    "genres": "Adventure, Award Winning, Sci-Fi",
+    "synopsis": "Simon and Kamina were born and raised in a deep, underground village, hidden from the fabled surface. Kamina is a free-spirited loose cannon bent on making a name for himself, while Simon is a timid y...",
+    "episodes": 27,
+    "year": 2007
+  },
+  {
+    "anime_id": 35760,
+    "title": "Shingeki no Kyojin Season 3",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1173/92110.jpg",
+    "score": 8.64,
+    "genres": "Action, Drama, Suspense",
+    "synopsis": "Still threatened by the \"Titans\" that rob them of their freedom, mankind remains caged inside the two remaining walls. Efforts to eradicate these monsters continue; however, threats arise not only fro...",
+    "episodes": 12,
+    "year": 2018
+  },
+  {
+    "anime_id": 13601,
+    "title": "Psycho-Pass",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1314/142015.jpg",
+    "score": 8.33,
+    "genres": "Action, Mystery, Sci-Fi, Suspense",
+    "synopsis": "Justice, and the enforcement of it, has changed. In the 22nd century, Japan enforces the Sibyl System, an objective means of determining the threat level of each citizen by examining their mental stat...",
+    "episodes": 22,
+    "year": 2012
+  },
+  {
+    "anime_id": 226,
+    "title": "Elfen Lied",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1780/121555.jpg",
+    "score": 7.46,
+    "genres": "Action, Drama, Horror, Romance, Suspense",
+    "synopsis": "Lucy is a special breed of human referred to as Diclonius, born with a short pair of horns and invisible telekinetic hands that lands her as a victim of inhumane scientific experimentation by the gove...",
+    "episodes": 13,
+    "year": 2004
+  },
+  {
+    "anime_id": 20583,
+    "title": "Haikyuu!!",
+    "image_url": "https://cdn.myanimelist.net/images/anime/7/76014.jpg",
+    "score": 8.43,
+    "genres": "Sports",
+    "synopsis": "Ever since having witnessed the \"Little Giant\" and his astonishing skills on the volleyball court, Shouyou Hinata has been bewitched by the dynamic nature of the sport. Even though his attempt to make...",
+    "episodes": 25,
+    "year": 2014
+  },
+  {
+    "anime_id": 28171,
+    "title": "Shokugeki no Souma",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1444/148976.jpg",
+    "score": 8.12,
+    "genres": "Gourmet, Ecchi",
+    "synopsis": "Souma Yukihira has been cooking alongside his father Jouichirou for as long as he can remember. As a sous chef at his father's restaurant, he has spent years developing his culinary expertise and inve...",
+    "episodes": 24,
+    "year": 2015
+  },
+  {
+    "anime_id": 30,
+    "title": "Shinseiki Evangelion",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1314/108941.jpg",
+    "score": 8.36,
+    "genres": "Avant Garde, Award Winning, Drama, Sci-Fi, Suspense",
+    "synopsis": "Fifteen years after a cataclysmic event known as the Second Impact, the world faces a new threat: monstrous celestial beings called Angels invade Tokyo-3 one by one. Mankind is unable to defend themse...",
+    "episodes": 26,
+    "year": 1995
+  },
+  {
+    "anime_id": 9989,
+    "title": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
+    "image_url": "https://cdn.myanimelist.net/images/anime/5/79697.jpg",
+    "score": 8.29,
+    "genres": "Drama, Supernatural",
+    "synopsis": "Jinta Yadomi is peacefully living as a recluse, spending his days away from school and playing video games at home instead. One hot summer day, his childhood friend, Meiko \"Menma\" Honma, appears and p...",
+    "episodes": 11,
+    "year": 2011
+  },
+  {
+    "anime_id": 121,
+    "title": "Fullmetal Alchemist",
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/75815.jpg",
+    "score": 8.11,
+    "genres": "Action, Adventure, Award Winning, Drama, Fantasy",
+    "synopsis": "Edward Elric, a young, brilliant alchemist, has lost much in his twelve-year life: when he and his brother Alphonse try to resurrect their dead mother through the forbidden act of human transmutation,...",
+    "episodes": 51,
+    "year": 2003
+  },
+  {
+    "anime_id": 37779,
+    "title": "Yakusoku no Neverland",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1830/118780.jpg",
+    "score": 8.47,
+    "genres": "Mystery, Suspense",
+    "synopsis": "Surrounded by a forest and a gated entrance, the Grace Field House is inhabited by orphans happily living together as one big family, looked after by their \"Mama,\" Isabella. Although they are required...",
+    "episodes": 12,
+    "year": 2019
+  },
+  {
+    "anime_id": 6746,
+    "title": "Durarara!!",
+    "image_url": "https://cdn.myanimelist.net/images/anime/10/71772.jpg",
+    "score": 8.09,
+    "genres": "Action, Mystery, Supernatural",
+    "synopsis": "In Tokyo's downtown district of Ikebukuro, amidst many strange rumors and warnings of anonymous gangs and dangerous occupants, one urban legend stands out above the rest—the existence of a headless \"B...",
+    "episodes": 24,
+    "year": 2010
+  },
+  {
+    "anime_id": 8074,
+    "title": "Highschool of the Dead",
+    "image_url": "https://cdn.myanimelist.net/images/anime/11/78311.jpg",
+    "score": 7.06,
+    "genres": "Action, Horror, Suspense, Ecchi",
+    "synopsis": "It happened suddenly: The dead began to rise and Japan was thrown into total chaos. As these monsters begin terrorizing a high school, Takashi Kimuro is forced to kill his best friend when he gets bit...",
+    "episodes": 12,
+    "year": 2010
+  },
+  {
+    "anime_id": 2167,
+    "title": "Clannad",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1804/95033.jpg",
+    "score": 7.99,
+    "genres": "Drama, Romance",
+    "synopsis": "Tomoya Okazaki is a delinquent who finds life dull and believes he'll never amount to anything. Along with his friend Youhei Sunohara, he skips school and plans to waste his high school days away.\n\nOn...",
+    "episodes": 23,
+    "year": 2007
+  },
+  {
+    "anime_id": 10087,
+    "title": "Fate/Zero",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1887/117644.jpg",
+    "score": 8.27,
+    "genres": "Action, Fantasy",
+    "synopsis": "With the promise of granting any wish, the omnipotent Holy Grail triggered three wars in the past, each too cruel and fierce to leave a victor. In spite of that, the wealthy Einzbern family is confide...",
+    "episodes": 13,
+    "year": 2011
+  },
+  {
+    "anime_id": 28121,
+    "title": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1172/148981.jpg",
+    "score": 7.53,
+    "genres": "Action, Adventure, Fantasy",
+    "synopsis": "Life in the bustling city of Orario is never dull, especially for Bell Cranel, a naive young man who hopes to become the greatest adventurer in the land. After a chance encounter with the lonely godde...",
+    "episodes": 13,
+    "year": 2015
+  },
+  {
+    "anime_id": 38524,
+    "title": "Shingeki no Kyojin Season 3 Part 2",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1517/100633.jpg",
+    "score": 9.05,
+    "genres": "Action, Drama, Suspense",
+    "synopsis": "Seeking to restore humanity's diminishing hope, the Survey Corps embark on a mission to retake Wall Maria, where the battle against the merciless \"Titans\" takes the stage once again.\n\nReturning to the...",
+    "episodes": 10,
+    "year": 2019
+  },
+  {
+    "anime_id": 5081,
+    "title": "Bakemonogatari",
+    "image_url": "https://cdn.myanimelist.net/images/anime/11/75274.jpg",
+    "score": 8.32,
+    "genres": "Mystery, Romance, Supernatural",
+    "synopsis": "Koyomi Araragi, a third-year high school student, manages to survive a vampire attack with the help of Meme Oshino, a strange man residing in an abandoned building. Though being saved from vampirism a...",
+    "episodes": 15,
+    "year": 2009
+  },
+  {
+    "anime_id": 15809,
+    "title": "Hataraku Maou-sama!",
+    "image_url": "https://cdn.myanimelist.net/images/anime/3/50177.jpg",
+    "score": 7.7,
+    "genres": "Comedy, Supernatural",
+    "synopsis": "Striking fear into the hearts of mortals, the Demon Lord Satan begins to conquer the land of Ente Isla with his vast demon armies. However, while embarking on this brutal quest to take over the contin...",
+    "episodes": 13,
+    "year": 2013
+  },
+  {
+    "anime_id": 28999,
+    "title": "Charlotte",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1826/147276.jpg",
+    "score": 7.75,
+    "genres": "Drama",
+    "synopsis": "If not for his ability to take over people's mind and body, Yuu Otosaka would be an ordinary high school student. Though it only lasts for five seconds at a time, Yuu's mysterious power allowed him to...",
+    "episodes": 13,
+    "year": 2015
+  },
+  {
+    "anime_id": 29803,
+    "title": "Overlord",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1945/136600.jpg",
+    "score": 7.9,
+    "genres": "Action, Adventure, Fantasy",
+    "synopsis": "The final hour of the popular virtual reality game Yggdrasil has come. However, Momonga, a powerful wizard and master of the dark guild Ainz Ooal Gown, decides to spend his last few moments in the gam...",
+    "episodes": 13,
+    "year": 2015
+  },
+  {
+    "anime_id": 30503,
+    "title": "Noragami Aragoto",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1689/94850.jpg",
+    "score": 8.14,
+    "genres": "Action, Supernatural",
+    "synopsis": "Yato and Yukine have finally mended their relationship as god and Regalia. As a minor and unknown deity, Yato continues to take odd jobs for five yen apiece in hopes of one day having millions of wors...",
+    "episodes": 13,
+    "year": 2015
+  },
+  {
+    "anime_id": 33352,
+    "title": "Violet Evergarden",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1795/95088.jpg",
+    "score": 8.69,
+    "genres": "Drama",
+    "synopsis": "The Great War finally came to an end after four long years of conflict; fractured in two, the continent of Telesis slowly began to flourish once again. Caught up in the bloodshed was Violet Evergarden...",
+    "episodes": 13,
+    "year": 2018
+  },
+  {
+    "anime_id": 11617,
+    "title": "High School DxD",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1331/111940.jpg",
+    "score": 7.32,
+    "genres": "Action, Comedy, Romance, Supernatural, Ecchi",
+    "synopsis": "High school student Issei Hyoudou is your run-of-the-mill pervert who does nothing productive with his life, peeping on women and dreaming of having his own harem one day. Things seem to be looking up...",
+    "episodes": 12,
+    "year": 2012
+  },
+  {
+    "anime_id": 34134,
+    "title": "One Punch Man 2nd Season",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1247/122044.jpg",
+    "score": 7.53,
+    "genres": "Action, Comedy",
+    "synopsis": "In the wake of defeating Boros and his mighty army, Saitama has returned to his unremarkable everyday life in Z-City. However, unbeknownst to him, the number of monsters appearing is still continuousl...",
+    "episodes": 12,
+    "year": 2019
+  },
+  {
+    "anime_id": 32937,
+    "title": "Kono Subarashii Sekai ni Shukufuku wo! 2",
+    "image_url": "https://cdn.myanimelist.net/images/anime/2/83188.jpg",
+    "score": 8.24,
+    "genres": "Adventure, Comedy, Fantasy",
+    "synopsis": "When Kazuma Satou died, he was given two choices: pass on to heaven or be revived in a fantasy world. After choosing the new world, the goddess Aqua tasked him with defeating the Demon King, and let h...",
+    "episodes": 10,
+    "year": 2017
+  },
+  {
+    "anime_id": 35849,
+    "title": "Darling in the FranXX",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1614/90408.jpg",
+    "score": 7.2,
+    "genres": "Drama, Romance, Sci-Fi",
+    "synopsis": "In the distant future, humanity has been driven to near-extinction by giant beasts known as Klaxosaurs, forcing the surviving humans to take refuge in massive fortress cities called Plantations. Child...",
+    "episodes": 24,
+    "year": 2018
+  },
+  {
+    "anime_id": 14813,
+    "title": "Yahari Ore no Seishun Love Comedy wa Machigatteiru.",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1786/120117.jpg",
+    "score": 8,
+    "genres": "Comedy, Romance",
+    "synopsis": "Hachiman Hikigaya is an apathetic high school student with narcissistic and semi-nihilistic tendencies. He firmly believes that joyful youth is nothing but a farce, and everyone who says otherwise is ...",
+    "episodes": 13,
+    "year": 2013
+  },
+  {
+    "anime_id": 9756,
+    "title": "Mahou Shoujo Madoka★Magica",
+    "image_url": "https://cdn.myanimelist.net/images/anime/11/55225.jpg",
+    "score": 8.38,
+    "genres": "Award Winning, Drama, Suspense",
+    "synopsis": "Madoka Kaname and Sayaka Miki are regular middle school girls with regular lives, but all that changes when they encounter Kyuubey, a cat-like magical familiar, and Homura Akemi, the new transfer stud...",
+    "episodes": 12,
+    "year": 2011
+  },
+  {
+    "anime_id": 14719,
+    "title": "JoJo no Kimyou na Bouken (TV)",
+    "image_url": "https://cdn.myanimelist.net/images/anime/3/40409.jpg",
+    "score": 7.87,
+    "genres": "Action, Adventure, Supernatural",
+    "synopsis": "The year is 1868; English nobleman George Joestar and his son Jonathan become indebted to Dario Brando after being rescued from a carriage incident. What the Joestars don't realize, however, is that D...",
+    "episodes": 26,
+    "year": 2012
+  },
+  {
+    "anime_id": 14741,
+    "title": "Chuunibyou demo Koi ga Shitai!",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1905/142840.jpg",
+    "score": 7.7,
+    "genres": "Comedy, Romance",
+    "synopsis": "Everybody has had that stage in their life where they have thought themselves to be special, different from the masses of ordinary humans. They might go as far as seeing themselves capable of wielding...",
+    "episodes": 12,
+    "year": 2012
+  },
+  {
+    "anime_id": 38408,
+    "title": "Boku no Hero Academia 4th Season",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1412/107914.jpg",
+    "score": 7.86,
+    "genres": "Action",
+    "synopsis": "After successfully passing his Provisional Hero License exam, Izuku \"Deku\" Midoriya seeks out an extracurricular internship with a professional hero agency. At the recommendation of his mentor All Mig...",
+    "episodes": 25,
+    "year": 2019
+  },
+  {
+    "anime_id": 10793,
+    "title": "Guilty Crown",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1566/133912.jpg",
+    "score": 7.39,
+    "genres": "Drama, Sci-Fi",
+    "synopsis": "On December 24, 2029—the day colloquially known as the \"Lost Christmas\"—the Apocalypse Virus spread across Japan, bringing death to its citizens and plunging the country into utter chaos. In an effort...",
+    "episodes": 22,
+    "year": 2011
+  },
+  {
+    "anime_id": 6880,
+    "title": "Deadman Wonderland",
+    "image_url": "https://cdn.myanimelist.net/images/anime/9/75299.jpg",
+    "score": 7.13,
+    "genres": "Action, Sci-Fi, Supernatural, Suspense",
+    "synopsis": "It looked like it would be a normal day for Ganta Igarashi and his classmates—they were preparing to go on a class field trip to a certain prison amusement park called Deadman Wonderland, where the co...",
+    "episodes": 12,
+    "year": 2011
+  },
+  {
+    "anime_id": 38691,
+    "title": "Dr. Stone",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1613/102576.jpg",
+    "score": 8.26,
+    "genres": "Adventure, Comedy, Sci-Fi",
+    "synopsis": "After five years of harboring unspoken feelings, high-schooler Taiju Ooki is finally ready to confess his love to Yuzuriha Ogawa. Just when Taiju begins his confession however, a blinding green light ...",
+    "episodes": 24,
+    "year": 2019
+  },
+  {
+    "anime_id": 12189,
+    "title": "Hyouka",
+    "image_url": "https://cdn.myanimelist.net/images/anime/13/50521.jpg",
+    "score": 8.05,
+    "genres": "Mystery, Slice of Life",
+    "synopsis": "High school freshman Houtarou Oreki has but one goal: to lead a gray life while conserving as much energy as he can. Unfortunately, his peaceful days come to an end when his older sister, Tomoe, force...",
+    "episodes": 22,
+    "year": 2012
+  },
+  {
+    "anime_id": 37450,
+    "title": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1301/93586.jpg",
+    "score": 8.23,
+    "genres": "Drama, Romance, Supernatural",
+    "synopsis": "The rare and inexplicable Puberty Syndrome is thought of as a myth. It is a rare disease which only affects teenagers, and its symptoms are so supernatural that hardly anyone recognizes it as a legiti...",
+    "episodes": 13,
+    "year": 2018
+  },
+  {
+    "anime_id": 37999,
+    "title": "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1295/106551.jpg",
+    "score": 8.4,
+    "genres": "Comedy, Romance",
+    "synopsis": "At the renowned Shuchiin Academy, Miyuki Shirogane and Kaguya Shinomiya are the student body's top representatives. Ranked the top student in the nation and respected by peers and mentors alike, Miyuk...",
+    "episodes": 12,
+    "year": 2019
+  },
+  {
+    "anime_id": 13759,
+    "title": "Sakura-sou no Pet na Kanojo",
+    "image_url": "https://cdn.myanimelist.net/images/anime/4/43643.jpg",
+    "score": 8.04,
+    "genres": "Drama, Romance",
+    "synopsis": "At Suimei High, the Sakura-sou dormitory is infamous for housing the school's most notorious delinquents. Thus, when the relatively tame Sorata Kanda is transferred to the dorm, escaping this insane a...",
+    "episodes": 24,
+    "year": 2012
+  },
+  {
+    "anime_id": 4181,
+    "title": "Clannad: After Story",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1299/110774.jpg",
+    "score": 8.93,
+    "genres": "Drama, Romance",
+    "synopsis": "Tomoya Okazaki and Nagisa Furukawa have graduated from high school, and together, they experience the emotional rollercoaster of growing up. Unable to decide on a course for his future, Tomoya learns ...",
+    "episodes": 24,
+    "year": 2008
+  },
+  {
+    "anime_id": 35790,
+    "title": "Tate no Yuusha no Nariagari",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1490/101365.jpg",
+    "score": 7.91,
+    "genres": "Action, Adventure, Drama, Fantasy",
+    "synopsis": "The Four Cardinal Heroes are a group of ordinary men from modern-day Japan summoned to the kingdom of Melromarc to become its saviors. Melromarc is a country plagued by the Waves of Catastrophe that h...",
+    "episodes": 25,
+    "year": 2019
+  },
+  {
+    "anime_id": 30654,
+    "title": "Ansatsu Kyoushitsu 2nd Season",
+    "image_url": "https://cdn.myanimelist.net/images/anime/8/77966.jpg",
+    "score": 8.47,
+    "genres": "Action, Comedy",
+    "synopsis": "Returning from their summer vacation, the students of Class 3-E at the prestigious Kunugigaoka Middle School find themselves up against unbeatable odds. Faced with the possibility of world annihilatio...",
+    "episodes": 25,
+    "year": 2016
+  },
+  {
+    "anime_id": 205,
+    "title": "Samurai Champloo",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1370/135212.jpg",
+    "score": 8.52,
+    "genres": "Action, Adventure, Comedy",
+    "synopsis": "Fuu Kasumi is a young and clumsy waitress who spends her days peacefully working in a small teahouse. That is, until she accidentally spills a drink all over one of her customers! With a group of samu...",
+    "episodes": 26,
+    "year": 2004
+  },
+  {
+    "anime_id": 813,
+    "title": "Dragon Ball Z",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1277/142022.jpg",
+    "score": 8.2,
+    "genres": "Action, Adventure, Comedy, Fantasy",
+    "synopsis": "Five years after winning the World Martial Arts tournament, Gokuu is now living a peaceful life with his wife and son. This changes, however, with the arrival of a mysterious enemy named Raditz who pr...",
+    "episodes": 291,
+    "year": 1989
+  },
+  {
+    "anime_id": 26243,
+    "title": "Owari no Seraph",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1879/148979.jpg",
+    "score": 7.49,
+    "genres": "Action, Drama, Fantasy",
+    "synopsis": "With the appearance of a mysterious virus that kills everyone above the age of 13, mankind becomes enslaved by previously hidden, power-hungry vampires who emerge in order to subjugate society with th...",
+    "episodes": 12,
+    "year": 2015
+  },
+  {
+    "anime_id": 7054,
+    "title": "Kaichou wa Maid-sama!",
+    "image_url": "https://cdn.myanimelist.net/images/anime/6/25254.jpg",
+    "score": 7.99,
+    "genres": "Comedy, Romance",
+    "synopsis": "Misaki Ayuzawa is a unique phenomenon within Seika High School. In a predominantly male institution, she became the first-ever female student council president through her honesty and diligence. Ever ...",
+    "episodes": 26,
+    "year": 2010
+  },
+  {
+    "anime_id": 164,
+    "title": "Mononoke Hime",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1355/147277.jpg",
+    "score": 8.67,
+    "genres": "Action, Adventure, Award Winning, Fantasy",
+    "synopsis": "When an Emishi village is attacked by a fierce demon boar, the young prince Ashitaka puts his life at stake to defend his tribe. With its dying breath, the beast curses the prince's arm, granting him ...",
+    "episodes": 1,
+    "year": null
+  },
+  {
+    "anime_id": 4898,
+    "title": "Kuroshitsuji",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1467/137783.jpg",
+    "score": 7.65,
+    "genres": "Action, Mystery, Supernatural",
+    "synopsis": "Young Ciel Phantomhive is known as \"the Queen's Guard Dog,\" taking care of the many unsettling events that occur in Victorian England for Her Majesty. Aided by Sebastian Michaelis, his loyal butler wi...",
+    "episodes": 24,
+    "year": 2008
+  },
+  {
+    "anime_id": 28891,
+    "title": "Haikyuu!! Second Season",
+    "image_url": "https://cdn.myanimelist.net/images/anime/9/76662.jpg",
+    "score": 8.62,
+    "genres": "Sports",
+    "synopsis": "Following their participation at the Inter-High, the Karasuno High School volleyball team attempts to refocus their efforts, aiming to conquer the Spring tournament instead. \n\nWhen they receive an inv...",
+    "episodes": 25,
+    "year": 2015
+  },
+  {
+    "anime_id": 17265,
+    "title": "Log Horizon",
+    "image_url": "https://cdn.myanimelist.net/images/anime/5/84004.jpg",
+    "score": 7.9,
+    "genres": "Action, Adventure, Fantasy",
+    "synopsis": "In the blink of an eye, thirty thousand bewildered Japanese gamers are whisked from their everyday lives into the world of the popular MMORPG, Elder Tale, after the game's latest update—unable to log ...",
+    "episodes": 25,
+    "year": 2013
+  },
+  {
+    "anime_id": 34599,
+    "title": "Made in Abyss",
+    "image_url": "https://cdn.myanimelist.net/images/anime/6/86733.jpg",
+    "score": 8.63,
+    "genres": "Adventure, Drama, Fantasy, Mystery, Sci-Fi",
+    "synopsis": "The Abyss—a gaping chasm stretching down into the depths of the earth, filled with mysterious creatures and relics from a time long past. How did it come to be? What lies at the bottom? Countless brav...",
+    "episodes": 13,
+    "year": 2017
+  },
+  {
+    "anime_id": 34572,
+    "title": "Black Clover",
+    "image_url": "https://cdn.myanimelist.net/images/anime/2/88336.jpg",
+    "score": 8.14,
+    "genres": "Action, Fantasy",
+    "synopsis": "Asta and Yuno were abandoned at the same church on the same day. Raised together as children, they came to know of the \"Wizard King\"—a title given to the strongest mage in the kingdom—and promised tha...",
+    "episodes": 170,
+    "year": 2017
+  },
+  {
+    "anime_id": 18897,
+    "title": "Nisekoi",
+    "image_url": "https://cdn.myanimelist.net/images/anime/13/75587.jpg",
+    "score": 7.55,
+    "genres": "Comedy, Romance",
+    "synopsis": "Raku Ichijou, a first-year student at Bonyari High School, is the sole heir to an intimidating yakuza family. Ten years ago, Raku made a promise to his childhood friend. Now, all he has to go on is a ...",
+    "episodes": 20,
+    "year": 2014
+  },
+  {
+    "anime_id": 18153,
+    "title": "Kyoukai no Kanata",
+    "image_url": "https://cdn.myanimelist.net/images/anime/3/85468.jpg",
+    "score": 7.71,
+    "genres": "Action, Supernatural",
+    "synopsis": "Mirai Kuriyama is the sole survivor of a clan of Spirit World warriors with the power to employ their blood as weapons. As such, Mirai is tasked with hunting down and killing \"youmu\"—creatures said to...",
+    "episodes": 12,
+    "year": 2013
+  },
+  {
+    "anime_id": 431,
+    "title": "Howl no Ugoku Shiro",
+    "image_url": "https://cdn.myanimelist.net/images/anime/1470/138723.jpg",
+    "score": 8.67,
+    "genres": "Adventure, Award Winning, Drama, Fantasy, Romance",
+    "synopsis": "That jumbled piece of architecture, that cacophony of hissing steam and creaking joints, with smoke billowing from it as it moves on its own... That castle is home to the magnificent wizard Howl, infa...",
+    "episodes": 1,
+    "year": null
+  },
+  {
+    "anime_id": 34933,
+    "title": "Kakegurui",
+    "image_url": "https://cdn.myanimelist.net/images/anime/3/86578.jpg",
+    "score": 7.22,
+    "genres": "Drama, Mystery, Suspense",
+    "synopsis": "Unlike many schools, attending Hyakkaou Private Academy prepares students for their time in the real world. Since many of the students are the children of the richest people in the world, the academy ...",
+    "episodes": 12,
+    "year": 2017
+  }
+]
