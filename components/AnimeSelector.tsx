@@ -76,7 +76,7 @@ export default function AnimeSelector({ animes, onComplete }: AnimeSelectorProps
                                             ? 'bg-white text-black border-white shadow-lg scale-105'
                                             : isCompleted
                                                 ? 'bg-gray-800 text-gray-400 border-gray-700'
-                                                : 'bg-transparent text-gray-600 border-gray-800'
+                                                : 'bg-transparent text-gray-400 border-gray-800'
                                         }
                                     `}
                                 >
@@ -89,7 +89,7 @@ export default function AnimeSelector({ animes, onComplete }: AnimeSelectorProps
 
                 {/* 메인 타이틀 & 설명 */}
                 <div className="mb-6">
-                    <h2 className="text-xl font-bold text-white mb-1">
+                    <h2 className="text-xl font-bold text-white mb-1" style={{ color: '#ffffff' }}>
                         {currentCategory} 애니메이션 선택
                     </h2>
                     <p className="text-sm text-gray-400">
