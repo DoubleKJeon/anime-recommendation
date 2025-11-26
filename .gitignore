@@ -46,6 +46,7 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Large data files
+# Large data files (exclude training data, but keep model)
 data/*.csv
-data/*.pkl
+data/animelist.csv
+data/rating_complete.csv
