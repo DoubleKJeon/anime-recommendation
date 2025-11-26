@@ -4,24 +4,17 @@ import RecommendationCard from './RecommendationCard';
 export default function RecommendationList({ recommendations, onReset }: RecommendationListProps) {
     return (
         <div className="min-h-screen bg-[#141414] text-white pb-24">
-            <div className="max-w-[1600px] mx-auto px-4 py-8 sm:py-12">
-                {/* 헤더 (키노라이츠 랭킹 스타일) */}
-                <div className="flex flex-col sm:flex-row justify-between items-end mb-8 border-b border-gray-800 pb-4">
-                    <div>
-                        <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-                            오늘의 추천 랭킹 🏆
-                        </h1>
-                        <p className="text-gray-400 text-sm">
-                            회원님의 취향을 분석하여 엄선한 <span className="text-white font-bold">{recommendations.length}개</span>의 작품입니다
-                        </p>
-                    </div>
-                    <div className="mt-4 sm:mt-0 text-xs text-gray-500 font-medium">
-                        {new Date().toLocaleDateString()} 기준
-                    </div>
+            <div className="max-w-[1800px] mx-auto px-4 py-8">
+                {/* 헤더 (간결하게) */}
+                <div className="mb-8 text-center">
+                    <h1 className="text-3xl font-bold mb-2">
+                        당신을 위한 추천 작품 <span className="text-red-500">{recommendations.length}</span>개
+                    </h1>
+                    <p className="text-gray-400 text-sm">취향 기반 큐레이션 결과</p>
                 </div>
 
-                {/* 추천 그리드 */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 sm:gap-6">
+                {/* 추천 그리드 (5x6 = 30개) */}
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mb-12">
                     {recommendations.map((rec, idx) => (
                         <RecommendationCard
                             key={rec.anime_id}

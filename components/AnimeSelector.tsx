@@ -53,11 +53,14 @@ export default function AnimeSelector({ animes, onComplete }: AnimeSelectorProps
                 {/* 헤더 */}
                 <div className="text-center mb-6 sm:mb-8">
                     <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2 bg-gradient-to-r from-red-600 to-red-500 bg-clip-text text-transparent">
-                        당신의 취향을 찾아드립니다
+                        작품 선택의 시간을 줄여드립니다!
                     </h1>
-                    <p className="text-sm sm:text-base text-gray-400">
-                        각 단계에서 마음에 드는 애니메이션을 선택하세요
+                    <p className="text-sm sm:text-base text-gray-400 mb-4">
+                        장르별로 5개만 선택해주세요
                     </p>
+                    <button className="px-6 py-2 bg-gradient-to-r from-red-600 to-red-500 text-white rounded-full font-bold text-sm hover:shadow-lg hover:scale-105 transition-all">
+                        취향 큐레이션 시작 →
+                    </button>
                 </div>
 
                 {/* 상단 탭바 (장르 네비게이션) */}
