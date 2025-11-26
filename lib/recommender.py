@@ -82,6 +82,7 @@ def get_recommendations(selected_anime_ids, top_n=30, model_path=None):
                 'type': info.get('Type', ''),
                 'episodes': int(info.get('Episodes', 0)) if info.get('Episodes') else 0,
                 'rating': info.get('Score', ''),
+                'image_url': info.get('Image URL', ''),
                 'match_score': float(score)
             })
     

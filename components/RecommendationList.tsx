@@ -143,7 +143,7 @@ export default function RecommendationList({ recommendations, onReset }: Recomme
                             {/* 카드 */}
                             <div className="relative aspect-[2/3] rounded-xl overflow-hidden bg-[#1a1a1a] cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:z-10 hover:shadow-2xl hover:shadow-[#00d26a]/10">
                                 <img
-                                    src="/placeholder.jpg"
+                                    src={rec.image_url || '/placeholder.jpg'}
                                     alt={rec.title}
                                     className="w-full h-full object-cover"
                                     loading="lazy"
@@ -159,7 +159,7 @@ export default function RecommendationList({ recommendations, onReset }: Recomme
                                     </h3>
                                     <div className="flex items-center gap-2 text-[10px] text-[#888]">
                                         <span className="flex items-center gap-0.5 text-[#00d26a]">
-                                            ⭐ {rec.match_score.toFixed(1)}%
+                                            ⭐ {(rec.match_score * 100).toFixed(1)}%
                                         </span>
                                         {rec.genre && (
                                             <span className="truncate">{rec.genre}</span>
@@ -170,7 +170,7 @@ export default function RecommendationList({ recommendations, onReset }: Recomme
                                 {/* 매칭률 표시 */}
                                 <div className="absolute top-2 right-2 bg-black/70 backdrop-blur-sm px-2 py-1 rounded-md">
                                     <span className="text-[10px] text-[#00d26a] font-medium">
-                                        {Math.round(rec.match_score)}% 매칭
+                                        {Math.round(rec.match_score * 100)}% 매칭
                                     </span>
                                 </div>
 

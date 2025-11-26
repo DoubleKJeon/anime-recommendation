@@ -18,6 +18,7 @@ export interface Recommendation {
   type: string;
   episodes: number;
   rating: string;
+  image_url: string;
   match_score: number;
 }
 
