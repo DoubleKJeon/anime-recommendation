@@ -1,25 +1,6 @@
-import { useState } from 'react';
 import { RecommendationListProps } from '@/interfaces/types';
-import RecommendationCard from './RecommendationCard';
 
 export default function RecommendationList({ recommendations, onReset }: RecommendationListProps) {
-    const [sortBy, setSortBy] = useState<'match' | 'rating' | 'year'>('match');
-    const [showFilters, setShowFilters] = useState(false);
-
-    // 정렬 로직
-    const sortedRecommendations = [...recommendations].sort((a, b) => {
-        switch (sortBy) {
-            case 'rating':
-                // Recommendation 타입에 score가 없으므로 match_score 사용
-                return (b.match_score || 0) - (a.match_score || 0);
-            case 'year':
-                // year 정보가 Recommendation에 없으므로 기본 유지
-                return 0;
-            default:
-                return 0; // 기본 추천순 유지
-        }
-    });
-
     return (
         <div className="min-h-screen bg-[#0a0a0a] text-white">
             {/* 상단 네비게이션 */}
@@ -90,39 +71,9 @@ export default function RecommendationList({ recommendations, onReset }: Recomme
                     </div>
                 </div>
 
-                {/* 필터 & 정렬 바 */}
-                <div className="flex items-center justify-between mb-6 pb-4 border-b border-[#1a1a1a]">
-                    <div className="flex items-center gap-2">
-                        <span className="text-sm text-[#666]">정렬</span>
-                        <div className="flex gap-1 bg-[#111] rounded-lg p-1">
-                            {[
-                                { key: 'match', label: '추천순', icon: '🎯' },
-                                { key: 'rating', label: '평점순', icon: '⭐' },
-                                { key: 'year', label: '최신순', icon: '📅' },
-                            ].map((option) => (
-                                <button
-                                    key={option.key}
-                                    onClick={() => setSortBy(option.key as typeof sortBy)}
-                                    className={`px-3 py-1.5 rounded-md text-xs font-medium transition-all ${sortBy === option.key
-                                            ? 'bg-[#00d26a] text-black'
-                                            : 'text-[#888] hover:text-white'
-                                        }`}
-                                >
-                                    <span className="hidden sm:inline">{option.icon} </span>
-                                    {option.label}
-                                </button>
-                            ))}
-                        </div>
-                    </div>
-
-                    <div className="text-xs text-[#555]">
-                        총 <span className="text-[#00d26a] font-medium">{recommendations.length}</span>개
-                    </div>
-                </div>
-
                 {/* 추천 그리드 */}
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3 sm:gap-4">
-                    {sortedRecommendations.map((rec, idx) => (
+                    {recommendations.map((rec, idx) => (
                         <div
                             key={rec.anime_id}
                             className="group relative"
@@ -131,7 +82,7 @@ export default function RecommendationList({ recommendations, onReset }: Recomme
                             }}
                         >
                             {/* 순위 배지 (상위 3개) */}
-                            {idx < 3 && sortBy === 'match' && (
+                            {idx < 3 && (
                                 <div className={`absolute -top-2 -left-2 z-20 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold shadow-lg ${idx === 0 ? 'bg-gradient-to-br from-yellow-400 to-yellow-600 text-black' :
                                         idx === 1 ? 'bg-gradient-to-br from-gray-300 to-gray-500 text-black' :
                                             'bg-gradient-to-br from-amber-600 to-amber-800 text-white'

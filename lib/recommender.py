@@ -32,6 +32,18 @@ def get_recommendations(selected_anime_ids, top_n=30, model_path=None):
     anime_ids = model['anime_ids']
     anime_info = model['anime_info']
     
+    # popular_animes.json 로드 (이미지 URL을 위해)
+    import os
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    popular_animes_path = os.path.join(current_dir, '..', 'data', 'popular_animes.json')
+    
+    anime_images = {}
+    if os.path.exists(popular_animes_path):
+        with open(popular_animes_path, 'r', encoding='utf-8') as f:
+            popular_animes = json.load(f)
+            for anime in popular_animes:
+                anime_images[anime['anime_id']] = anime.get('image_url', '')
+    
     # 추천 점수 저장
     recommendations = {}
     
@@ -82,7 +94,7 @@ def get_recommendations(selected_anime_ids, top_n=30, model_path=None):
                 'type': info.get('Type', ''),
                 'episodes': int(info.get('Episodes', 0)) if info.get('Episodes') else 0,
                 'rating': info.get('Score', ''),
-                'image_url': info.get('Image URL', ''),
+                'image_url': anime_images.get(anime_id, ''),
                 'match_score': float(score)
             })
     
