@@ -26,7 +26,16 @@ class handler(BaseHTTPRequestHandler):
                 self.wfile.write(json.dumps({'error': '5개의 애니메이션을 선택해주세요'}).encode('utf-8'))
                 return
 
-            recommendations = get_recommendations(selected_ids)
+            # Vercel 환경에서 데이터 파일 경로 찾기
+            # 1. 현재 작업 디렉토리 기준 (Vercel 루트)
+            model_path = os.path.join(os.getcwd(), 'data', 'svd_model.pkl')
+            
+            # 2. 만약 없다면, 현재 파일 기준 (로컬 테스트용)
+            if not os.path.exists(model_path):
+                current_file_dir = os.path.dirname(os.path.abspath(__file__))
+                model_path = os.path.join(current_file_dir, '..', 'data', 'svd_model.pkl')
+
+            recommendations = get_recommendations(selected_ids, model_path=model_path)
             
             self.send_response(200)
             self.send_header('Content-type', 'application/json')

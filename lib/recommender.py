@@ -4,22 +4,24 @@ import pickle
 import numpy as np
 from scipy.spatial.distance import cosine
 
-def get_recommendations(selected_anime_ids, top_n=30):
+def get_recommendations(selected_anime_ids, top_n=30, model_path=None):
     """
     선택한 애니메이션 기반 추천
     
     Args:
         selected_anime_ids: 사용자가 선택한 애니메이션 ID 리스트 [1, 5, 20, 50, 100]
         top_n: 추천할 애니메이션 개수 (기본 30개)
+        model_path: 모델 파일 경로 (선택 사항)
     
     Returns:
         추천 애니메이션 리스트
     """
     
     # 모델 로드
-    import os
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    model_path = os.path.join(current_dir, '..', 'data', 'svd_model.pkl')
+    if model_path is None:
+        import os
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        model_path = os.path.join(current_dir, '..', 'data', 'svd_model.pkl')
     
     with open(model_path, 'rb') as f:
         model = pickle.load(f)
@@ -75,11 +77,11 @@ def get_recommendations(selected_anime_ids, top_n=30):
             info = anime_info[anime_id]
             result.append({
                 'anime_id': int(anime_id),
-                'title': info.get('Name', 'Unknown'),  # 'title' -> 'Name'
-                'genre': info.get('Genres', ''),  # 'genre' -> 'Genres'
-                'type': info.get('Type', ''),  # 'type' -> 'Type'
+                'title': info.get('Name', 'Unknown'),
+                'genre': info.get('Genres', ''),
+                'type': info.get('Type', ''),
                 'episodes': int(info.get('Episodes', 0)) if info.get('Episodes') else 0,
-                'rating': info.get('Score', ''),  # 'rating' -> 'Score'
+                'rating': info.get('Score', ''),
                 'match_score': float(score)
             })
     

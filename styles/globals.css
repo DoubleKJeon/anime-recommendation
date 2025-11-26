@@ -5,6 +5,8 @@
 /* 모바일 퍼스트 기본 스타일 */
 body {
   background-color: #f9fafb;
+  color: #ffffff;
+  /* 기본 텍스트 색상 흰색 강제 */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
