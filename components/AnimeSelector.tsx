@@ -192,7 +192,7 @@ export default function AnimeSelector({ animes, onComplete }: AnimeSelectorProps
                                 >
                                     <img
                                         src={anime.image_url || '/placeholder.jpg'}
-                                        alt={anime.name}
+                                        alt={anime.title}
                                         className="w-full h-full object-cover"
                                     />
                                     <div className="absolute top-0.5 right-0.5 w-4 h-4 bg-[#00d26a] rounded-full flex items-center justify-center text-[8px] text-black font-bold">
@@ -229,7 +229,7 @@ export default function AnimeSelector({ animes, onComplete }: AnimeSelectorProps
                             >
                                 <img
                                     src={anime.image_url || '/placeholder.jpg'}
-                                    alt={anime.name}
+                                    alt={anime.title}
                                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                                     loading="lazy"
                                 />
@@ -238,7 +238,7 @@ export default function AnimeSelector({ animes, onComplete }: AnimeSelectorProps
                                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300">
                                     <div className="absolute bottom-0 left-0 right-0 p-3">
                                         <p className="text-sm font-bold text-white leading-tight line-clamp-2">
-                                            {anime.name}
+                                            {anime.title}
                                         </p>
                                         {anime.genres && (
                                             <p className="text-[10px] text-[#888] mt-1 line-clamp-1">
@@ -315,8 +315,8 @@ export default function AnimeSelector({ animes, onComplete }: AnimeSelectorProps
                                         <div
                                             key={idx}
                                             className={`w-2 h-2 rounded-full transition-all duration-300 ${idx < selectedAnimes.length
-                                                    ? 'bg-[#00d26a]'
-                                                    : 'bg-[#2a2a2a]'
+                                                ? 'bg-[#00d26a]'
+                                                : 'bg-[#2a2a2a]'
                                                 }`}
                                         />
                                     ))}

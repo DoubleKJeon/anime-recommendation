@@ -10,9 +10,11 @@ export default function RecommendationList({ recommendations, onReset }: Recomme
     const sortedRecommendations = [...recommendations].sort((a, b) => {
         switch (sortBy) {
             case 'rating':
-                return (b.score || 0) - (a.score || 0);
+                // Recommendation 타입에 score가 없으므로 match_score 사용
+                return (b.match_score || 0) - (a.match_score || 0);
             case 'year':
-                return (b.year || 0) - (a.year || 0);
+                // year 정보가 Recommendation에 없으므로 기본 유지
+                return 0;
             default:
                 return 0; // 기본 추천순 유지
         }
@@ -141,8 +143,8 @@ export default function RecommendationList({ recommendations, onReset }: Recomme
                             {/* 카드 */}
                             <div className="relative aspect-[2/3] rounded-xl overflow-hidden bg-[#1a1a1a] cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:z-10 hover:shadow-2xl hover:shadow-[#00d26a]/10">
                                 <img
-                                    src={rec.image_url || '/placeholder.jpg'}
-                                    alt={rec.name}
+                                    src="/placeholder.jpg"
+                                    alt={rec.title}
                                     className="w-full h-full object-cover"
                                     loading="lazy"
                                 />
@@ -153,28 +155,24 @@ export default function RecommendationList({ recommendations, onReset }: Recomme
                                 {/* 호버 시 정보 */}
                                 <div className="absolute bottom-0 left-0 right-0 p-3 transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                                     <h3 className="text-sm font-bold text-white leading-tight line-clamp-2 mb-1">
-                                        {rec.name}
+                                        {rec.title}
                                     </h3>
                                     <div className="flex items-center gap-2 text-[10px] text-[#888]">
-                                        {rec.score && (
-                                            <span className="flex items-center gap-0.5 text-[#00d26a]">
-                                                ⭐ {rec.score.toFixed(1)}
-                                            </span>
-                                        )}
-                                        {rec.genres && (
-                                            <span className="truncate">{rec.genres}</span>
+                                        <span className="flex items-center gap-0.5 text-[#00d26a]">
+                                            ⭐ {rec.match_score.toFixed(1)}%
+                                        </span>
+                                        {rec.genre && (
+                                            <span className="truncate">{rec.genre}</span>
                                         )}
                                     </div>
                                 </div>
 
                                 {/* 매칭률 표시 */}
-                                {rec.predicted_rating && (
-                                    <div className="absolute top-2 right-2 bg-black/70 backdrop-blur-sm px-2 py-1 rounded-md">
-                                        <span className="text-[10px] text-[#00d26a] font-medium">
-                                            {Math.round(rec.predicted_rating * 10)}% 매칭
-                                        </span>
-                                    </div>
-                                )}
+                                <div className="absolute top-2 right-2 bg-black/70 backdrop-blur-sm px-2 py-1 rounded-md">
+                                    <span className="text-[10px] text-[#00d26a] font-medium">
+                                        {Math.round(rec.match_score)}% 매칭
+                                    </span>
+                                </div>
 
                                 {/* 신호등 평가 버튼 (호버 시) */}
                                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300 scale-90 group-hover:scale-100">
