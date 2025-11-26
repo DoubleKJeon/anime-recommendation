@@ -48,14 +48,8 @@ export default function RecommendationList({ recommendations, onReset }: Recomme
                         </p>
                     </div>
 
-                    {/* 통계 카드 */}
+                    {/* 통계 카드 - 예상 적중률 제거 */}
                     <div className="flex justify-center gap-4 mt-6">
-                        <div className="bg-[#111] border border-[#1a1a1a] rounded-xl px-4 py-3 text-center">
-                            <div className="text-2xl font-bold text-[#00d26a]" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
-                                94%
-                            </div>
-                            <div className="text-[10px] text-[#555] uppercase tracking-wider">예상 적중률</div>
-                        </div>
                         <div className="bg-[#111] border border-[#1a1a1a] rounded-xl px-4 py-3 text-center">
                             <div className="text-2xl font-bold text-white" style={{ fontFamily: "'Bebas Neue', sans-serif" }}>
                                 {recommendations.length}
@@ -81,18 +75,18 @@ export default function RecommendationList({ recommendations, onReset }: Recomme
                                 animation: `fadeInUp 0.5s ease-out ${idx * 0.03}s both`
                             }}
                         >
-                            {/* 순위 배지 (상위 3개) */}
-                            {idx < 3 && (
-                                <div className={`absolute -top-2 -left-2 z-20 w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold shadow-lg ${idx === 0 ? 'bg-gradient-to-br from-yellow-400 to-yellow-600 text-black' :
-                                        idx === 1 ? 'bg-gradient-to-br from-gray-300 to-gray-500 text-black' :
-                                            'bg-gradient-to-br from-amber-600 to-amber-800 text-white'
-                                    }`}>
-                                    {idx + 1}
-                                </div>
-                            )}
-
                             {/* 카드 */}
                             <div className="relative aspect-[2/3] rounded-xl overflow-hidden bg-[#1a1a1a] cursor-pointer transition-all duration-300 hover:scale-[1.02] hover:z-10 hover:shadow-2xl hover:shadow-[#00d26a]/10">
+                                {/* 순위 배지 (상위 3개) - 카드 안쪽으로 조정 */}
+                                {idx < 3 && (
+                                    <div className={`absolute top-1.5 left-1.5 z-20 w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-bold shadow-lg ${idx === 0 ? 'bg-gradient-to-br from-yellow-400 to-yellow-600 text-black' :
+                                            idx === 1 ? 'bg-gradient-to-br from-gray-300 to-gray-500 text-black' :
+                                                'bg-gradient-to-br from-amber-600 to-amber-800 text-white'
+                                        }`}>
+                                        {idx + 1}
+                                    </div>
+                                )}
+
                                 <img
                                     src={rec.image_url || '/placeholder.jpg'}
                                     alt={rec.title}
@@ -110,7 +104,7 @@ export default function RecommendationList({ recommendations, onReset }: Recomme
                                     </h3>
                                     <div className="flex items-center gap-2 text-[10px] text-[#888]">
                                         <span className="flex items-center gap-0.5 text-[#00d26a]">
-                                            ⭐ {(rec.match_score * 100).toFixed(1)}%
+                                            🎯 {(rec.match_score * 100).toFixed(0)}%
                                         </span>
                                         {rec.genre && (
                                             <span className="truncate">{rec.genre}</span>
@@ -118,12 +112,14 @@ export default function RecommendationList({ recommendations, onReset }: Recomme
                                     </div>
                                 </div>
 
-                                {/* 매칭률 표시 */}
-                                <div className="absolute top-2 right-2 bg-black/70 backdrop-blur-sm px-2 py-1 rounded-md">
-                                    <span className="text-[10px] text-[#00d26a] font-medium">
-                                        {Math.round(rec.match_score * 100)}% 매칭
-                                    </span>
-                                </div>
+                                {/* 매칭률 표시 - 항상 표시 */}
+                                {rec.match_score && (
+                                    <div className="absolute top-1.5 right-1.5 bg-black/80 backdrop-blur-sm px-2 py-1 rounded-md">
+                                        <span className="text-[10px] text-[#00d26a] font-bold">
+                                            {Math.round(rec.match_score * 100)}%
+                                        </span>
+                                    </div>
+                                )}
 
                                 {/* 신호등 평가 버튼 (호버 시) */}
                                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex gap-2 opacity-0 group-hover:opacity-100 transition-all duration-300 scale-90 group-hover:scale-100">
