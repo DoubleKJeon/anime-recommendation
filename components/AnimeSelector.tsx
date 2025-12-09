@@ -99,23 +99,23 @@ export default function AnimeSelector({ animes, onComplete }: AnimeSelectorProps
             </nav>
 
             {/* 메인 컨텐츠 */}
-            <div className="max-w-4xl mx-auto px-4 pt-20 pb-32">
+            <div className="max-w-5xl mx-auto px-4 sm:px-6 pt-20 sm:pt-24 pb-32">
                 {/* 헤더 섹션 */}
-                <div className="text-center mb-8">
-                    <div className="inline-flex items-center gap-2 bg-[#00d26a]/10 border border-[#00d26a]/20 px-4 py-1.5 rounded-full text-xs text-[#00d26a] mb-4">
+                <div className="text-center mb-6 sm:mb-8">
+                    <div className="inline-flex items-center gap-2 bg-[#00d26a]/10 border border-[#00d26a]/20 px-3 sm:px-4 py-1.5 rounded-full text-xs text-[#00d26a] mb-3 sm:mb-4">
                         <span className="w-1.5 h-1.5 bg-[#00d26a] rounded-full animate-pulse" />
                         SVD 협업 필터링 분석 중
                     </div>
 
-                    <h1 className="text-2xl sm:text-3xl font-bold mb-2">
-                        <span className="text-[#888] line-through text-lg sm:text-xl">뭐 볼지 고민하다 밤새지 말고</span>
-                        <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00d26a] to-[#00ff88]">
+                    <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-2">
+                        <span className="text-[#888] line-through text-base sm:text-lg lg:text-xl block sm:inline">뭐 볼지 고민하다 밤새지 말고</span>
+                        <br className="hidden sm:block" />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00d26a] to-[#00ff88] block sm:inline mt-1 sm:mt-0">
                             5개만 고르면 끝!
                         </span>
                     </h1>
 
-                    <p className="text-sm text-[#666] mt-2">
+                    <p className="text-xs sm:text-sm text-[#666] mt-2">
                         어려우시면 그냥 끌리는 거 고르세요. 알고리즘이 알아서 합니다 🧠
                     </p>
                 </div>
@@ -214,34 +214,34 @@ export default function AnimeSelector({ animes, onComplete }: AnimeSelectorProps
                 )}
 
                 {/* 애니메이션 그리드 */}
-                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-3">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 sm:gap-3">
                     {currentAnimes.map((anime, index) => (
                         <div
                             key={anime.anime_id}
-                            className="transform transition-all duration-300 hover:scale-[1.02] hover:z-10"
+                            className="transform transition-all duration-300 hover:scale-105 hover:z-10"
                             style={{
-                                animation: `fadeInUp 0.4s ease-out ${index * 0.05}s both`
+                                animation: `fadeInUp 0.4s ease-out ${index * 0.03}s both`
                             }}
                         >
                             <div
                                 onClick={() => handleSelect(anime)}
-                                className="relative aspect-[2/3] rounded-xl overflow-hidden cursor-pointer group bg-[#1a1a1a]"
+                                className="relative aspect-[2/3] rounded-lg sm:rounded-xl overflow-hidden cursor-pointer group bg-[#1a1a1a] active:scale-95 transition-transform"
                             >
                                 <img
                                     src={anime.image_url || '/placeholder.jpg'}
                                     alt={anime.title}
-                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                                     loading="lazy"
                                 />
 
                                 {/* 호버 오버레이 */}
-                                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300">
-                                    <div className="absolute bottom-0 left-0 right-0 p-3">
-                                        <p className="text-sm font-bold text-white leading-tight line-clamp-2">
+                                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300">
+                                    <div className="absolute bottom-0 left-0 right-0 p-2 sm:p-3">
+                                        <p className="text-xs sm:text-sm font-bold text-white leading-tight line-clamp-2">
                                             {anime.title}
                                         </p>
                                         {anime.genres && (
-                                            <p className="text-[10px] text-[#888] mt-1 line-clamp-1">
+                                            <p className="text-[9px] sm:text-[10px] text-[#888] mt-1 line-clamp-1">
                                                 {anime.genres}
                                             </p>
                                         )}
@@ -250,8 +250,8 @@ export default function AnimeSelector({ animes, onComplete }: AnimeSelectorProps
 
                                 {/* 선택 유도 버튼 (호버 시) */}
                                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300">
-                                    <div className="w-12 h-12 bg-[#00d26a] rounded-full flex items-center justify-center shadow-lg shadow-[#00d26a]/30 transform scale-0 group-hover:scale-100 transition-transform duration-300">
-                                        <span className="text-black text-xl">+</span>
+                                    <div className="w-10 h-10 sm:w-12 sm:h-12 bg-[#00d26a] rounded-full flex items-center justify-center shadow-lg shadow-[#00d26a]/30 transform scale-0 group-hover:scale-100 transition-transform duration-300">
+                                        <span className="text-black text-lg sm:text-xl font-bold">+</span>
                                     </div>
                                 </div>
                             </div>
