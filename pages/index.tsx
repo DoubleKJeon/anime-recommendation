@@ -264,39 +264,17 @@ export default function Anilights() {
       {/* Footer */}
       <footer className="bg-[#0a0a0a] border-t border-[#1a1a1a] py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 sm:gap-8 mb-8 sm:mb-10">
-            <div className="col-span-2 sm:col-span-3 lg:col-span-2">
-              <div className="flex items-center gap-2 mb-3">
-                <span className="text-xl sm:text-2xl">🎬</span>
-                <span className="text-base sm:text-lg font-bold tracking-wider">ANILIGHTS</span>
-              </div>
-              <p className="text-[#666] text-xs sm:text-sm leading-relaxed max-w-xs">
-                덕후들의 시간을 아껴주는<br />
-                AI 애니메이션 추천 서비스
-              </p>
+          <div className="flex flex-col items-center text-center gap-4">
+            <div className="flex items-center gap-2">
+              <span className="text-xl sm:text-2xl">🎬</span>
+              <span className="text-base sm:text-lg font-bold tracking-wider">ANILIGHTS</span>
             </div>
-
-            {[
-              { title: "서비스", links: ["추천받기", "랭킹", "신작 캘린더"] },
-              { title: "정보", links: ["이용약관", "개인정보", "FAQ"] },
-              { title: "기술", links: ["SVD 알고리즘", "협업 필터링", "GitHub"] },
-            ].map((section, i) => (
-              <div key={i}>
-                <h4 className="text-[10px] sm:text-xs text-[#555] uppercase tracking-wider mb-3 sm:mb-4 font-semibold">{section.title}</h4>
-                <ul className="space-y-2 sm:space-y-3">
-                  {section.links.map((link, j) => (
-                    <li key={j}>
-                      <a href="#" className="text-[#888] text-xs sm:text-sm hover:text-white transition-colors block">{link}</a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-
-          <div className="flex flex-col sm:flex-row justify-between items-center pt-6 border-t border-[#1a1a1a] text-xs text-[#555] gap-3 sm:gap-2">
-            <span className="text-center sm:text-left">© 2024 Anilights. 만든 사람도 덕후입니다.</span>
-            <span>데이터 출처: MyAnimeList</span>
+            <p className="text-[#666] text-xs sm:text-sm">
+              AI 애니메이션 추천 서비스
+            </p>
+            <div className="text-xs text-[#555]">
+              머신러닝과 사업기획 과제 · 데이터 출처: MyAnimeList
+            </div>
           </div>
         </div>
       </footer>
