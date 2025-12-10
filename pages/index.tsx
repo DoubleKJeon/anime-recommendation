@@ -171,7 +171,7 @@ export default function Anilights() {
         <div className="relative z-10 max-w-4xl mx-auto">
           <div className="inline-flex items-center gap-2 bg-[#00d26a]/10 border border-[#00d26a]/30 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm text-[#00d26a] mb-4 sm:mb-6 animate-[fadeInDown_0.6s_ease-out]">
             <span className="hidden sm:inline">🎯</span>
-            SVD 협업 필터링으로 분석합니다
+            시놉시스 기반 콘텐츠 분석
           </div>
 
           <h1 className="font-black leading-tight mb-4 sm:mb-5 animate-[fadeInUp_0.6s_ease-out_0.1s_both]">
@@ -212,9 +212,9 @@ export default function Anilights() {
         <div className="max-w-6xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-12">
           {[
             { value: popularAnimes.length.toLocaleString(), label: "분석된 애니메이션" },
-            { value: "100K+", label: "평가 데이터" },
+            { value: "16K+", label: "시놉시스 데이터" },
             { value: "94%", label: "취향 적중률" },
-            { value: "12", label: "잠재 요인 분석" },
+            { value: "TF-IDF", label: "콘텐츠 유사도" },
           ].map((stat, i) => (
             <div
               key={i}
@@ -270,7 +270,7 @@ export default function Anilights() {
               <span className="text-base sm:text-lg font-bold tracking-wider">ANILIGHTS</span>
             </div>
             <p className="text-[#666] text-xs sm:text-sm">
-              AI 애니메이션 추천 서비스
+              시놉시스 기반 애니메이션 추천 서비스
             </p>
             <div className="text-xs text-[#555]">
               머신러닝과 사업기획 과제 · 데이터 출처: MyAnimeList

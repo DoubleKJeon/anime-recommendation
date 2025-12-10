@@ -8,7 +8,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.join(current_dir, '..')
 sys.path.append(project_root)
 
-from lib.recommender import get_recommendations
+from lib.synopsis_recommender import get_synopsis_recommendations
 
 class handler(BaseHTTPRequestHandler):
     def do_POST(self):
@@ -26,42 +26,10 @@ class handler(BaseHTTPRequestHandler):
                 self.wfile.write(json.dumps({'error': '5개의 애니메이션을 선택해주세요'}).encode('utf-8'))
                 return
 
-            # Vercel 환경에서 데이터 파일 경로 찾기 (Robust Search)
-            model_filename = 'svd_model.pkl'
-            model_path = None
-            
-            # 1. 일반적인 경로 시도
-            possible_paths = [
-                os.path.join(os.getcwd(), 'data', model_filename),
-                os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data', model_filename),
-                os.path.join('/var/task/data', model_filename),
-                os.path.join('/var/task', model_filename),
-            ]
-            
-            for path in possible_paths:
-                if os.path.exists(path):
-                    model_path = path
-                    break
-            
-            # 2. 찾지 못했다면, 전체 디렉토리 검색 (최후의 수단)
-            if model_path is None:
-                search_root = os.getcwd()
-                for root, dirs, files in os.walk(search_root):
-                    if model_filename in files:
-                        model_path = os.path.join(root, model_filename)
-                        break
-            
-            # 3. 여전히 없다면 디버깅 정보 출력
-            if model_path is None:
-                debug_info = []
-                debug_info.append(f"CWD: {os.getcwd()}")
-                debug_info.append(f"Files in CWD: {os.listdir(os.getcwd())}")
-                if os.path.exists(os.path.join(os.getcwd(), 'data')):
-                     debug_info.append(f"Files in data: {os.listdir(os.path.join(os.getcwd(), 'data'))}")
-                
-                raise FileNotFoundError(f"Model file not found. Debug: {'; '.join(debug_info)}")
 
-            recommendations = get_recommendations(selected_ids, model_path=model_path)
+            # Synopsis-based recommender doesn't need model files
+            # It loads data directly from CSV
+            recommendations = get_synopsis_recommendations(selected_ids, top_n=30)
             
             self.send_response(200)
             self.send_header('Content-type', 'application/json')
