@@ -1,0 +1,46 @@
+============================================================
+ANIME WITH SYNOPSIS DATASET REPORT
+============================================================
+
+Total anime records: 16214
+Columns: MAL_ID, Name, Score, Genres, sypnopsis
+
+Synopsis column name: 'sypnopsis'
+Non-null synopsis: 16206
+Percentage with synopsis: 100.0%
+
+First 5 anime:
+------------------------------------------------------------
+
+1. Cowboy Bebop (ID: 1)
+   Score: 8.78
+   Genres: Action, Adventure, Comedy, Drama, Sci-Fi, Space
+   Synopsis: In the year 2071, humanity has colonized several of the planets and moons of the solar system leaving the now uninhabitable surface of planet Earth behind. The Inter Solar System Police attempts to ke...
+
+2. Cowboy Bebop: Tengoku no Tobira (ID: 5)
+   Score: 8.39
+   Genres: Action, Drama, Mystery, Sci-Fi, Space
+   Synopsis: other day, another bounty—such is the life of the often unlucky crew of the Bebop. However, this routine is interrupted when Faye, who is chasing a fairly worthless target on Mars, witnesses an oil ta...
+
+3. Trigun (ID: 6)
+   Score: 8.24
+   Genres: Action, Sci-Fi, Adventure, Comedy, Drama, Shounen
+   Synopsis: Vash the Stampede is the man with a $$60,000,000,000 bounty on his head. The reason: he's a merciless villain who lays waste to all those that oppose him and flattens entire cities for fun, garnering ...
+
+4. Witch Hunter Robin (ID: 7)
+   Score: 7.27
+   Genres: Action, Mystery, Police, Supernatural, Drama, Magic
+   Synopsis: ches are individuals with special powers like ESP, telekinesis, mind control, etc. Robin, a 15-year-old craft user, arrives from Italy to Japan to work for an organization named STN Japan Division (ST...
+
+5. Bouken Ou Beet (ID: 8)
+   Score: 6.98
+   Genres: Adventure, Fantasy, Shounen, Supernatural
+   Synopsis: It is the dark century and the people are suffering under the rule of the devil, Vandel, who is able to manipulate monsters. The Vandel Busters are a group of people who hunt these devils, and among t...
+
+============================================================
+COMPARISON WITH POPULAR_ANIMES.JSON
+============================================================
+
+anime_with_synopsis.csv: 16214 anime
+popular_animes.json: 100 anime
+Difference: 16114 more anime available!

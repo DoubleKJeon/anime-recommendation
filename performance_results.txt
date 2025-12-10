@@ -1,0 +1,33 @@
+============================================================
+TF-IDF Performance Test on 16,214 Anime
+============================================================
+
+1. Loading data...
+   ✓ Loaded 16214 anime in 0.20 seconds
+
+2. Preparing text (synopsis + genres)...
+   ✓ Prepared 16214 texts in 0.03 seconds
+
+3. TF-IDF vectorization...
+   ✓ Created TF-IDF matrix in 15.97 seconds
+   Matrix shape: (16214, 5000)
+   Matrix size: 3.72 MB
+
+4. Computing cosine similarity (sample 1000 anime)...
+   ✓ Computed for 1000 anime in 0.09 seconds
+
+5. Testing recommendation speed...
+   ✓ Top 30 recommendations in 1.00 ms
+
+============================================================
+SUMMARY
+============================================================
+Data loading: 0.20s
+TF-IDF processing: 15.97s
+Cosine similarity (1K sample): 0.09s
+Recommendation speed: 1.0 ms
+
+Total one-time setup: 16.17 seconds
+
+✅ CONCLUSION: Very fast! Your computer can handle this easily.
+============================================================
