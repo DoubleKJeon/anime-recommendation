@@ -11,6 +11,7 @@
     "fetch-popular": "python scripts/2_fetch_popular.py"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^1.3.1",
     "axios": "^1.13.2",
     "next": "^16.0.8",
     "react": "^19.2.1",
