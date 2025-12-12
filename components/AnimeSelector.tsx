@@ -191,9 +191,12 @@ export default function AnimeSelector({ animes, onComplete }: AnimeSelectorProps
                                     className="relative flex-shrink-0 w-12 h-16 rounded-lg overflow-hidden ring-2 ring-[#00d26a]/50"
                                 >
                                     <img
-                                        src={anime.image_url || '/placeholder.jpg'}
+                                        src={anime.image_url || '/placeholder-anime.svg'}
                                         alt={anime.title}
                                         className="w-full h-full object-cover"
+                                        onError={(e) => {
+                                            e.currentTarget.src = '/placeholder-anime.svg';
+                                        }}
                                     />
                                     <div className="absolute top-0.5 right-0.5 w-4 h-4 bg-[#00d26a] rounded-full flex items-center justify-center text-[8px] text-black font-bold">
                                         {idx + 1}
@@ -228,10 +231,13 @@ export default function AnimeSelector({ animes, onComplete }: AnimeSelectorProps
                                 className="relative aspect-[2/3] rounded-lg sm:rounded-xl overflow-hidden cursor-pointer group bg-[#1a1a1a] active:scale-95 transition-transform"
                             >
                                 <img
-                                    src={anime.image_url || '/placeholder.jpg'}
+                                    src={anime.image_url || '/placeholder-anime.svg'}
                                     alt={anime.title}
                                     className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                                     loading="lazy"
+                                    onError={(e) => {
+                                        e.currentTarget.src = '/placeholder-anime.svg';
+                                    }}
                                 />
 
                                 {/* 호버 오버레이 */}
